@@ -7,23 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7FA04D34290FA95D00FCDEF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D33290FA95D00FCDEF4 /* AppDelegate.swift */; };
-		7FA04D36290FA95D00FCDEF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D35290FA95D00FCDEF4 /* SceneDelegate.swift */; };
-		7FA04D38290FA95D00FCDEF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D37290FA95D00FCDEF4 /* ViewController.swift */; };
-		7FA04D3B290FA95D00FCDEF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA04D39290FA95D00FCDEF4 /* Main.storyboard */; };
 		7FA04D3D290FA95F00FCDEF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA04D3C290FA95F00FCDEF4 /* Assets.xcassets */; };
 		7FA04D40290FA95F00FCDEF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA04D3E290FA95F00FCDEF4 /* LaunchScreen.storyboard */; };
+		7FA04D58290FA9AC00FCDEF4 /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D56290FA9AC00FCDEF4 /* AppComponent.swift */; };
+		7FA04D59290FA9AC00FCDEF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D57290FA9AC00FCDEF4 /* AppDelegate.swift */; };
+		7FA04D82290FA9B600FCDEF4 /* AppHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D5B290FA9B600FCDEF4 /* AppHomeInteractor.swift */; };
+		7FA04D83290FA9B600FCDEF4 /* AppHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D5C290FA9B600FCDEF4 /* AppHomeRouter.swift */; };
+		7FA04D84290FA9B600FCDEF4 /* AppHomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D5D290FA9B600FCDEF4 /* AppHomeBuilder.swift */; };
+		7FA04D85290FA9B600FCDEF4 /* HomeWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D5E290FA9B600FCDEF4 /* HomeWidgetModel.swift */; };
+		7FA04D86290FA9B600FCDEF4 /* HomeWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D60290FA9B600FCDEF4 /* HomeWidgetView.swift */; };
+		7FA04D87290FA9B600FCDEF4 /* AppHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D61290FA9B600FCDEF4 /* AppHomeViewController.swift */; };
+		7FA04D88290FA9B600FCDEF4 /* ProfileHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D63290FA9B600FCDEF4 /* ProfileHomeRouter.swift */; };
+		7FA04D89290FA9B600FCDEF4 /* ProfileHomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D64290FA9B600FCDEF4 /* ProfileHomeBuilder.swift */; };
+		7FA04D8A290FA9B600FCDEF4 /* ProfileHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D65290FA9B600FCDEF4 /* ProfileHomeViewController.swift */; };
+		7FA04D8B290FA9B600FCDEF4 /* ProfileHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D66290FA9B600FCDEF4 /* ProfileHomeInteractor.swift */; };
+		7FA04D8C290FA9B600FCDEF4 /* TransportHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D68290FA9B600FCDEF4 /* TransportHomeViewController.swift */; };
+		7FA04D8D290FA9B600FCDEF4 /* TransportHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D69290FA9B600FCDEF4 /* TransportHomeRouter.swift */; };
+		7FA04D8E290FA9B600FCDEF4 /* TransportHomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D6A290FA9B600FCDEF4 /* TransportHomeBuilder.swift */; };
+		7FA04D8F290FA9B600FCDEF4 /* TransportHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D6B290FA9B600FCDEF4 /* TransportHomeInteractor.swift */; };
+		7FA04D90290FA9B600FCDEF4 /* RideTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D6D290FA9B600FCDEF4 /* RideTypeView.swift */; };
+		7FA04D91290FA9B600FCDEF4 /* SuperPayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D6E290FA9B600FCDEF4 /* SuperPayView.swift */; };
+		7FA04D92290FA9B600FCDEF4 /* FinanceHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D70290FA9B600FCDEF4 /* FinanceHomeRouter.swift */; };
+		7FA04D93290FA9B600FCDEF4 /* FinanceHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D71290FA9B600FCDEF4 /* FinanceHomeInteractor.swift */; };
+		7FA04D94290FA9B600FCDEF4 /* FinanceHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D72290FA9B600FCDEF4 /* FinanceHomeViewController.swift */; };
+		7FA04D95290FA9B600FCDEF4 /* FinanceHomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D73290FA9B600FCDEF4 /* FinanceHomeBuilder.swift */; };
+		7FA04D96290FA9B600FCDEF4 /* PushModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D75290FA9B600FCDEF4 /* PushModalPresentationController.swift */; };
+		7FA04D97290FA9B600FCDEF4 /* UIColor+Super.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D76290FA9B600FCDEF4 /* UIColor+Super.swift */; };
+		7FA04D98290FA9B600FCDEF4 /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D77290FA9B600FCDEF4 /* UIView+Utils.swift */; };
+		7FA04D99290FA9B600FCDEF4 /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D78290FA9B600FCDEF4 /* UIColor+Utils.swift */; };
+		7FA04D9A290FA9B600FCDEF4 /* RIBs+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D79290FA9B600FCDEF4 /* RIBs+Utils.swift */; };
+		7FA04D9B290FA9B600FCDEF4 /* UITableView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D7A290FA9B600FCDEF4 /* UITableView+Utils.swift */; };
+		7FA04D9C290FA9B600FCDEF4 /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D7B290FA9B600FCDEF4 /* Array+Utils.swift */; };
+		7FA04D9D290FA9B600FCDEF4 /* UIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D7C290FA9B600FCDEF4 /* UIImage+Utils.swift */; };
+		7FA04D9E290FA9B600FCDEF4 /* AppRootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D7E290FA9B600FCDEF4 /* AppRootInteractor.swift */; };
+		7FA04D9F290FA9B600FCDEF4 /* AppRootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D7F290FA9B600FCDEF4 /* AppRootBuilder.swift */; };
+		7FA04DA0290FA9B600FCDEF4 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D80290FA9B600FCDEF4 /* RootTabBarController.swift */; };
+		7FA04DA1290FA9B600FCDEF4 /* AppRootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA04D81290FA9B600FCDEF4 /* AppRootRouter.swift */; };
+		7FA04DA4290FAA8B00FCDEF4 /* ModernRIBs in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA04DA3290FAA8B00FCDEF4 /* ModernRIBs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7FA04D30290FA95D00FCDEF4 /* TaxiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FA04D33290FA95D00FCDEF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7FA04D35290FA95D00FCDEF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7FA04D37290FA95D00FCDEF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7FA04D3A290FA95D00FCDEF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7FA04D3C290FA95F00FCDEF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FA04D3F290FA95F00FCDEF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FA04D41290FA95F00FCDEF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FA04D56290FA9AC00FCDEF4 /* AppComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppComponent.swift; sourceTree = "<group>"; };
+		7FA04D57290FA9AC00FCDEF4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FA04D5B290FA9B600FCDEF4 /* AppHomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppHomeInteractor.swift; sourceTree = "<group>"; };
+		7FA04D5C290FA9B600FCDEF4 /* AppHomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppHomeRouter.swift; sourceTree = "<group>"; };
+		7FA04D5D290FA9B600FCDEF4 /* AppHomeBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppHomeBuilder.swift; sourceTree = "<group>"; };
+		7FA04D5E290FA9B600FCDEF4 /* HomeWidgetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWidgetModel.swift; sourceTree = "<group>"; };
+		7FA04D60290FA9B600FCDEF4 /* HomeWidgetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWidgetView.swift; sourceTree = "<group>"; };
+		7FA04D61290FA9B600FCDEF4 /* AppHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppHomeViewController.swift; sourceTree = "<group>"; };
+		7FA04D63290FA9B600FCDEF4 /* ProfileHomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHomeRouter.swift; sourceTree = "<group>"; };
+		7FA04D64290FA9B600FCDEF4 /* ProfileHomeBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHomeBuilder.swift; sourceTree = "<group>"; };
+		7FA04D65290FA9B600FCDEF4 /* ProfileHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHomeViewController.swift; sourceTree = "<group>"; };
+		7FA04D66290FA9B600FCDEF4 /* ProfileHomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHomeInteractor.swift; sourceTree = "<group>"; };
+		7FA04D68290FA9B600FCDEF4 /* TransportHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportHomeViewController.swift; sourceTree = "<group>"; };
+		7FA04D69290FA9B600FCDEF4 /* TransportHomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportHomeRouter.swift; sourceTree = "<group>"; };
+		7FA04D6A290FA9B600FCDEF4 /* TransportHomeBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportHomeBuilder.swift; sourceTree = "<group>"; };
+		7FA04D6B290FA9B600FCDEF4 /* TransportHomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportHomeInteractor.swift; sourceTree = "<group>"; };
+		7FA04D6D290FA9B600FCDEF4 /* RideTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideTypeView.swift; sourceTree = "<group>"; };
+		7FA04D6E290FA9B600FCDEF4 /* SuperPayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperPayView.swift; sourceTree = "<group>"; };
+		7FA04D70290FA9B600FCDEF4 /* FinanceHomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinanceHomeRouter.swift; sourceTree = "<group>"; };
+		7FA04D71290FA9B600FCDEF4 /* FinanceHomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinanceHomeInteractor.swift; sourceTree = "<group>"; };
+		7FA04D72290FA9B600FCDEF4 /* FinanceHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinanceHomeViewController.swift; sourceTree = "<group>"; };
+		7FA04D73290FA9B600FCDEF4 /* FinanceHomeBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinanceHomeBuilder.swift; sourceTree = "<group>"; };
+		7FA04D75290FA9B600FCDEF4 /* PushModalPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushModalPresentationController.swift; sourceTree = "<group>"; };
+		7FA04D76290FA9B600FCDEF4 /* UIColor+Super.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Super.swift"; sourceTree = "<group>"; };
+		7FA04D77290FA9B600FCDEF4 /* UIView+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
+		7FA04D78290FA9B600FCDEF4 /* UIColor+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utils.swift"; sourceTree = "<group>"; };
+		7FA04D79290FA9B600FCDEF4 /* RIBs+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RIBs+Utils.swift"; sourceTree = "<group>"; };
+		7FA04D7A290FA9B600FCDEF4 /* UITableView+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Utils.swift"; sourceTree = "<group>"; };
+		7FA04D7B290FA9B600FCDEF4 /* Array+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Utils.swift"; sourceTree = "<group>"; };
+		7FA04D7C290FA9B600FCDEF4 /* UIImage+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Utils.swift"; sourceTree = "<group>"; };
+		7FA04D7E290FA9B600FCDEF4 /* AppRootInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRootInteractor.swift; sourceTree = "<group>"; };
+		7FA04D7F290FA9B600FCDEF4 /* AppRootBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRootBuilder.swift; sourceTree = "<group>"; };
+		7FA04D80290FA9B600FCDEF4 /* RootTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		7FA04D81290FA9B600FCDEF4 /* AppRootRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRootRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA04DA4290FAA8B00FCDEF4 /* ModernRIBs in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +118,124 @@
 		7FA04D32290FA95D00FCDEF4 /* TaxiApp */ = {
 			isa = PBXGroup;
 			children = (
-				7FA04D33290FA95D00FCDEF4 /* AppDelegate.swift */,
-				7FA04D35290FA95D00FCDEF4 /* SceneDelegate.swift */,
-				7FA04D37290FA95D00FCDEF4 /* ViewController.swift */,
-				7FA04D39290FA95D00FCDEF4 /* Main.storyboard */,
+				7FA04D55290FA9AC00FCDEF4 /* AppDelegate */,
+				7FA04D5A290FA9B600FCDEF4 /* AppHome */,
+				7FA04D7D290FA9B600FCDEF4 /* AppRoot */,
+				7FA04D6F290FA9B600FCDEF4 /* FinanceHome */,
+				7FA04D62290FA9B600FCDEF4 /* ProfileHome */,
+				7FA04D67290FA9B600FCDEF4 /* TransportHome */,
+				7FA04D74290FA9B600FCDEF4 /* Utils */,
 				7FA04D3C290FA95F00FCDEF4 /* Assets.xcassets */,
 				7FA04D3E290FA95F00FCDEF4 /* LaunchScreen.storyboard */,
 				7FA04D41290FA95F00FCDEF4 /* Info.plist */,
 			);
 			path = TaxiApp;
+			sourceTree = "<group>";
+		};
+		7FA04D55290FA9AC00FCDEF4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7FA04D56290FA9AC00FCDEF4 /* AppComponent.swift */,
+				7FA04D57290FA9AC00FCDEF4 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			path = "../../MiniSuperApp-fastcampus/MiniSuperApp/AppDelegate";
+			sourceTree = "<group>";
+		};
+		7FA04D5A290FA9B600FCDEF4 /* AppHome */ = {
+			isa = PBXGroup;
+			children = (
+				7FA04D5B290FA9B600FCDEF4 /* AppHomeInteractor.swift */,
+				7FA04D5C290FA9B600FCDEF4 /* AppHomeRouter.swift */,
+				7FA04D5D290FA9B600FCDEF4 /* AppHomeBuilder.swift */,
+				7FA04D5E290FA9B600FCDEF4 /* HomeWidgetModel.swift */,
+				7FA04D5F290FA9B600FCDEF4 /* Views */,
+				7FA04D61290FA9B600FCDEF4 /* AppHomeViewController.swift */,
+			);
+			name = AppHome;
+			path = "../../MiniSuperApp-fastcampus/MiniSuperApp/AppHome";
+			sourceTree = "<group>";
+		};
+		7FA04D5F290FA9B600FCDEF4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7FA04D60290FA9B600FCDEF4 /* HomeWidgetView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7FA04D62290FA9B600FCDEF4 /* ProfileHome */ = {
+			isa = PBXGroup;
+			children = (
+				7FA04D63290FA9B600FCDEF4 /* ProfileHomeRouter.swift */,
+				7FA04D64290FA9B600FCDEF4 /* ProfileHomeBuilder.swift */,
+				7FA04D65290FA9B600FCDEF4 /* ProfileHomeViewController.swift */,
+				7FA04D66290FA9B600FCDEF4 /* ProfileHomeInteractor.swift */,
+			);
+			name = ProfileHome;
+			path = "../../MiniSuperApp-fastcampus/MiniSuperApp/ProfileHome";
+			sourceTree = "<group>";
+		};
+		7FA04D67290FA9B600FCDEF4 /* TransportHome */ = {
+			isa = PBXGroup;
+			children = (
+				7FA04D68290FA9B600FCDEF4 /* TransportHomeViewController.swift */,
+				7FA04D69290FA9B600FCDEF4 /* TransportHomeRouter.swift */,
+				7FA04D6A290FA9B600FCDEF4 /* TransportHomeBuilder.swift */,
+				7FA04D6B290FA9B600FCDEF4 /* TransportHomeInteractor.swift */,
+				7FA04D6C290FA9B600FCDEF4 /* Views */,
+			);
+			name = TransportHome;
+			path = "../../MiniSuperApp-fastcampus/MiniSuperApp/TransportHome";
+			sourceTree = "<group>";
+		};
+		7FA04D6C290FA9B600FCDEF4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7FA04D6D290FA9B600FCDEF4 /* RideTypeView.swift */,
+				7FA04D6E290FA9B600FCDEF4 /* SuperPayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7FA04D6F290FA9B600FCDEF4 /* FinanceHome */ = {
+			isa = PBXGroup;
+			children = (
+				7FA04D70290FA9B600FCDEF4 /* FinanceHomeRouter.swift */,
+				7FA04D71290FA9B600FCDEF4 /* FinanceHomeInteractor.swift */,
+				7FA04D72290FA9B600FCDEF4 /* FinanceHomeViewController.swift */,
+				7FA04D73290FA9B600FCDEF4 /* FinanceHomeBuilder.swift */,
+			);
+			name = FinanceHome;
+			path = "../../MiniSuperApp-fastcampus/MiniSuperApp/FinanceHome";
+			sourceTree = "<group>";
+		};
+		7FA04D74290FA9B600FCDEF4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7FA04D75290FA9B600FCDEF4 /* PushModalPresentationController.swift */,
+				7FA04D76290FA9B600FCDEF4 /* UIColor+Super.swift */,
+				7FA04D77290FA9B600FCDEF4 /* UIView+Utils.swift */,
+				7FA04D78290FA9B600FCDEF4 /* UIColor+Utils.swift */,
+				7FA04D79290FA9B600FCDEF4 /* RIBs+Utils.swift */,
+				7FA04D7A290FA9B600FCDEF4 /* UITableView+Utils.swift */,
+				7FA04D7B290FA9B600FCDEF4 /* Array+Utils.swift */,
+				7FA04D7C290FA9B600FCDEF4 /* UIImage+Utils.swift */,
+			);
+			name = Utils;
+			path = "../../MiniSuperApp-fastcampus/MiniSuperApp/Utils";
+			sourceTree = "<group>";
+		};
+		7FA04D7D290FA9B600FCDEF4 /* AppRoot */ = {
+			isa = PBXGroup;
+			children = (
+				7FA04D7E290FA9B600FCDEF4 /* AppRootInteractor.swift */,
+				7FA04D7F290FA9B600FCDEF4 /* AppRootBuilder.swift */,
+				7FA04D80290FA9B600FCDEF4 /* RootTabBarController.swift */,
+				7FA04D81290FA9B600FCDEF4 /* AppRootRouter.swift */,
+			);
+			name = AppRoot;
+			path = "../../MiniSuperApp-fastcampus/MiniSuperApp/AppRoot";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +254,9 @@
 			dependencies = (
 			);
 			name = TaxiApp;
+			packageProductDependencies = (
+				7FA04DA3290FAA8B00FCDEF4 /* ModernRIBs */,
+			);
 			productName = TaxiApp;
 			productReference = 7FA04D30290FA95D00FCDEF4 /* TaxiApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +285,9 @@
 				Base,
 			);
 			mainGroup = 7FA04D27290FA95D00FCDEF4;
+			packageReferences = (
+				7FA04DA2290FAA8B00FCDEF4 /* XCRemoteSwiftPackageReference "ModernRIBs" */,
+			);
 			productRefGroup = 7FA04D31290FA95D00FCDEF4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +304,6 @@
 			files = (
 				7FA04D40290FA95F00FCDEF4 /* LaunchScreen.storyboard in Resources */,
 				7FA04D3D290FA95F00FCDEF4 /* Assets.xcassets in Resources */,
-				7FA04D3B290FA95D00FCDEF4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +314,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FA04D38290FA95D00FCDEF4 /* ViewController.swift in Sources */,
-				7FA04D34290FA95D00FCDEF4 /* AppDelegate.swift in Sources */,
-				7FA04D36290FA95D00FCDEF4 /* SceneDelegate.swift in Sources */,
+				7FA04D8E290FA9B600FCDEF4 /* TransportHomeBuilder.swift in Sources */,
+				7FA04DA0290FA9B600FCDEF4 /* RootTabBarController.swift in Sources */,
+				7FA04D84290FA9B600FCDEF4 /* AppHomeBuilder.swift in Sources */,
+				7FA04D98290FA9B600FCDEF4 /* UIView+Utils.swift in Sources */,
+				7FA04DA1290FA9B600FCDEF4 /* AppRootRouter.swift in Sources */,
+				7FA04D95290FA9B600FCDEF4 /* FinanceHomeBuilder.swift in Sources */,
+				7FA04D83290FA9B600FCDEF4 /* AppHomeRouter.swift in Sources */,
+				7FA04D8C290FA9B600FCDEF4 /* TransportHomeViewController.swift in Sources */,
+				7FA04D9C290FA9B600FCDEF4 /* Array+Utils.swift in Sources */,
+				7FA04D85290FA9B600FCDEF4 /* HomeWidgetModel.swift in Sources */,
+				7FA04D94290FA9B600FCDEF4 /* FinanceHomeViewController.swift in Sources */,
+				7FA04D58290FA9AC00FCDEF4 /* AppComponent.swift in Sources */,
+				7FA04D9D290FA9B600FCDEF4 /* UIImage+Utils.swift in Sources */,
+				7FA04D9E290FA9B600FCDEF4 /* AppRootInteractor.swift in Sources */,
+				7FA04D89290FA9B600FCDEF4 /* ProfileHomeBuilder.swift in Sources */,
+				7FA04D8D290FA9B600FCDEF4 /* TransportHomeRouter.swift in Sources */,
+				7FA04D9B290FA9B600FCDEF4 /* UITableView+Utils.swift in Sources */,
+				7FA04D87290FA9B600FCDEF4 /* AppHomeViewController.swift in Sources */,
+				7FA04D93290FA9B600FCDEF4 /* FinanceHomeInteractor.swift in Sources */,
+				7FA04D9A290FA9B600FCDEF4 /* RIBs+Utils.swift in Sources */,
+				7FA04D9F290FA9B600FCDEF4 /* AppRootBuilder.swift in Sources */,
+				7FA04D59290FA9AC00FCDEF4 /* AppDelegate.swift in Sources */,
+				7FA04D8F290FA9B600FCDEF4 /* TransportHomeInteractor.swift in Sources */,
+				7FA04D86290FA9B600FCDEF4 /* HomeWidgetView.swift in Sources */,
+				7FA04D90290FA9B600FCDEF4 /* RideTypeView.swift in Sources */,
+				7FA04D88290FA9B600FCDEF4 /* ProfileHomeRouter.swift in Sources */,
+				7FA04D97290FA9B600FCDEF4 /* UIColor+Super.swift in Sources */,
+				7FA04D92290FA9B600FCDEF4 /* FinanceHomeRouter.swift in Sources */,
+				7FA04D82290FA9B600FCDEF4 /* AppHomeInteractor.swift in Sources */,
+				7FA04D8A290FA9B600FCDEF4 /* ProfileHomeViewController.swift in Sources */,
+				7FA04D96290FA9B600FCDEF4 /* PushModalPresentationController.swift in Sources */,
+				7FA04D91290FA9B600FCDEF4 /* SuperPayView.swift in Sources */,
+				7FA04D8B290FA9B600FCDEF4 /* ProfileHomeInteractor.swift in Sources */,
+				7FA04D99290FA9B600FCDEF4 /* UIColor+Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7FA04D39290FA95D00FCDEF4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7FA04D3A290FA95D00FCDEF4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7FA04D3E290FA95F00FCDEF4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,9 +492,10 @@
 				INFOPLIST_FILE = TaxiApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +505,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,9 +520,10 @@
 				INFOPLIST_FILE = TaxiApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +533,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +559,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7FA04DA2290FAA8B00FCDEF4 /* XCRemoteSwiftPackageReference "ModernRIBs" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/DevYeom/ModernRIBs";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7FA04DA3290FAA8B00FCDEF4 /* ModernRIBs */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA04DA2290FAA8B00FCDEF4 /* XCRemoteSwiftPackageReference "ModernRIBs" */;
+			productName = ModernRIBs;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7FA04D28290FA95D00FCDEF4 /* Project object */;
 }
